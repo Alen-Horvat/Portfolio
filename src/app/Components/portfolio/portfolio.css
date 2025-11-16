@@ -1,0 +1,15 @@
+html{
+  background: cornflowerblue;
+  text-align: center;
+}
+h1{
+  border-bottom: 2px solid black;
+  font-size: 50px;
+}
+h2{
+  font-size: 35px;
+}
+p{
+  border-bottom: 2px solid black;
+  font-size: 25px;
+}
