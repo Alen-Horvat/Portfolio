@@ -1,9 +1,12 @@
 import { Component } from '@angular/core';
 import {Router} from '@angular/router';
+import {MatDivider} from '@angular/material/divider';
 
 @Component({
   selector: 'app-portfolio',
-  imports: [],
+  imports: [
+    MatDivider
+  ],
   templateUrl: './portfolio.html',
   styleUrl: './portfolio.css',
 })

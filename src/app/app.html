@@ -1,7 +1,31 @@
 <body>
-  <nav>
-    <a routerLink="/portfolio" routerLinkActive="active">Portfolio</a>
-  </nav>
+<mat-tab-group  dynamicHeight mat-align-tabs="center">
+  <mat-tab label="About Me" >
+<!--    <router-outlet></router-outlet>-->
+    <div class="about">
+      <h1>Alen Horvat</h1>
+      <p>My name is Alen Horvat. I am a student in the Mobile Applications Development Program at St.Clair College</p>
+    </div>
+  </mat-tab>
 
-  <router-outlet></router-outlet>
+  <mat-tab label="Projects">
+    <div class="projects">
+
+    </div>
+  </mat-tab>
+
+  <mat-tab label="Contact">
+    <div class="contact">
+      <h1>Here are some ways to contact me</h1>
+      <ul>
+        <li>Email: AlenHorvat1&#64;outlook.com</li>
+      </ul>
+    </div>
+  </mat-tab>
+</mat-tab-group>
+<!--  <nav>-->
+<!--    <a routerLink="/portfolio" routerLinkActive="active">Portfolio</a>-->
+<!--  </nav>-->
+
+<!--  <router-outlet></router-outlet>-->
 </body>
